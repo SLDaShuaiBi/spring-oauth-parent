@@ -1,4 +1,4 @@
-package com.louis.spring.oauth.server.entity;
+package com.louis.spring.oauth.client.entity;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -40,7 +40,6 @@ public class MyUserPrincipal implements UserDetails {
     public boolean isAccountNonExpired() {
         return true;
     }
-
     @Override
     public boolean isAccountNonLocked() {
         return true;
